@@ -1,0 +1,62 @@
+h1[name="tit"]{
+    font-family: Handlee;
+    font-size: 150px;
+    position: relative;
+    top: 40px;
+    color: #0083FF;
+}
+h1{
+    font-family: monospace;
+    font-size: 50px;
+}
+
+img[name="zoom"]{
+    border-radius: 10px;
+
+}
+
+fa{
+    width: 80%;
+    height: 80%;
+    transition: 0.5s;
+    object-fit: cover;
+
+}
+
+fa:hover{
+transform: scale(1.2);
+}
+
+span{
+display: block;
+color: #91CAFF ;
+font-family: monospace;
+font-size: 90px;
+white-space: nowrap;
+border-right: 4px solid;
+width: 12ch;
+animation: typing 4s steps(12), blink 2s infinite step-end alternate;
+overflow: hidden;
+
+}
+@keyframes typing{
+from { width: 0}
+}
+@keyframes blink{
+50%{ border-color: transparent;}
+}
+
+.libros{
+    transition: transform .1s; 
+    border-radius: 10px;
+}
+
+.libros:hover {
+    transform: scale(1.3); 
+    overflow: hidden;
+}
+
+
+
+
+
